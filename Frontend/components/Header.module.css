@@ -1,0 +1,21 @@
+#google_translate_element {
+    display: inline-block;
+    margin-left: 16px;
+  }
+  
+  .goog-te-combo {
+    background-color: #f97316; /* Matching background color */
+    color: white; /* Matching text color */
+    padding: 8px 16px; /* Matching padding */
+    border-radius: 8px; /* Matching border-radius */
+    font-size: 16px; /* Adjust font size to match */
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add hover transition */
+  }
+  
+  .goog-te-combo:hover {
+    background-color: #e06913; /* Hover color to match other buttons */
+  }
+  
