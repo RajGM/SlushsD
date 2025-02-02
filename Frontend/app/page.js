@@ -4,6 +4,7 @@ import MediaLogos from '@components/MediaLogos'
 import CTAButtons from '@components/CTAButtons'
 import TrustedPartners from '@components/TrustedPartners'
 import EducatorStats from '@components/EducatorStats'
+import ToolsShowcase from "@components/ToolShowcase"
 
 export default function Home() {
   return (
@@ -12,8 +13,7 @@ export default function Home() {
       <main className="flex-grow container mx-auto px-4 py-12 flex flex-col justify-between">
         <div>
           <Hero />
-          <MediaLogos />
-          <CTAButtons />
+          <ToolsShowcase/>
         </div>
       </main>
     </div>
