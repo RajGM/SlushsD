@@ -1,0 +1,19 @@
+# Node modules and logs
+node_modules
+npm-debug.log
+yarn-error.log
+
+# dotenv environment variables file
+.env
+
+# Ignore Mac and Linux file system metadata
+.DS_Store
+*.swp
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Other
+.git
+.gitignore
